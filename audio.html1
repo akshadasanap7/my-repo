@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Audio Stream</title>
+  <style>
+    body {
+      background-color: #eef2f3;
+      font-family: Verdana, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Enjoy Streaming Audio 🎶</h1>
+  <p>Click play to stream relaxing music from the web.</p>
+
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
